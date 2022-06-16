@@ -1,0 +1,97 @@
+[
+    {
+        "comment": "Hello, How are u?",
+        "idUser": 2,
+        "id": 1
+    },
+    {
+        "comment": "Hello, I'm fine",
+        "idUser": 1,
+        "id": 2
+    },
+    {
+        "comment": "What do u think about this page?",
+        "idUser": 2,
+        "id": 3
+    },
+    {
+        "comment": "Oh, I feel so good ^^, and u ?",
+        "idUser": 1,
+        "id": 4
+    },
+    {
+        "comment": "Oh, me 2, a cat in your avatar is so cute ~~",
+        "idUser": 2,
+        "id": 5
+    },
+    {
+        "comment": "<3 Thank you very much, you look so cute",
+        "idUser": 1,
+        "id": 6
+    },
+    {
+        "comment": "<3 Thank you very much, you look so cute",
+        "idUser": 1,
+        "id": 7
+    },
+    {
+        "comment": "Hello Bin1, Do you think what I'm thinking?",
+        "idUser": 3,
+        "id": 8
+    },
+    {
+        "comment": "Yeah, you're here, Bin2, gud to see u",
+        "idUser": 2,
+        "id": 9
+    },
+    {
+        "comment": "Hello everyone!",
+        "idUser": 4,
+        "id": 10
+    },
+    {
+        "comment": "Test chat",
+        "idUser": 4,
+        "id": 11
+    },
+    {
+        "comment": "Hello, how are u today ^^",
+        "idUser": 4,
+        "id": 12
+    },
+    {
+        "comment": "Fine, how about you",
+        "idUser": 5,
+        "id": 13
+    },
+    {
+        "comment": "I have a question, can anyone help me?",
+        "idUser": 6,
+        "id": 14
+    },
+    {
+        "comment": "Yeah, just ask",
+        "idUser": 7,
+        "id": 15
+    },
+    {
+        "comment": "No Question, It's just a test hihi ^^",
+        "idUser": 6,
+        "id": 16
+    },
+    {
+        "comment": "LMAO",
+        "idUser": 5,
+        "id": 17
+    },
+    {
+        "comment": "🤣🤣",
+        "idUser": 4,
+        "id": 18
+    },
+    {
+        "comment": "😑😑😑",
+        "idUser": 7,
+        "id": 19
+    }
+]

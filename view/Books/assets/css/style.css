@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right bottom, #EC4899, #8b5cf6);
+    border-radius: 100rem;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #999;
+    border-radius: 100rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-color: #2A263E;
+}
+
+.book-block {
+    cursor: pointer;
+    width: 225px;
+    height: 380px;
+    display: inline-block;
+    margin: 12px 16px;
+    top: 0;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: #342853;
+    color: #000;
+    transition: 0.4s;
+
+}
+
+.book-block:hover{
+    transition: 0.4s;
+    position: relative;
+    top: -10px;
+    width: 240px;
+    height: 400px;
+    z-index: 10;
+}
+
+.book-block>div>a>h4,
+.book-block>div>a>p {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    margin: 4px 4px 4px 12px;
+}
+
+.book-block>div>a>h4 {
+    text-decoration: underline;
+    background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.book-block>div>a>p {
+    background-image: linear-gradient(-45deg, #ff9190, #5E72EB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.book-block img {
+    height: 260px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.book-block img:hover {
+    opacity: 0.6;
+}
+
+.book-block>a {
+    display: inline-block;
+    margin: 0 12px;
+    padding: 4px 8px;
+    color: grey;
+}
+
+.book-block>a:hover {
+    color: red;
+}
+
+#add-book-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 60px;
+    right: 40px;
+    z-index: 1;
+    padding: 12px;
+    border-radius: 24px;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(-45deg, #06D3EC, #9541FC);
+    border: 1px solid #000;
+}
+
+#add-book-btn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#add-book-btn span span {
+    display: inline-block;
+    margin-right: 8px;
+    display: none;
+}
+
+#add-book-btn span:hover span {
+    display: inline;
+}
+
+#add-book-btn span i {
+    background-color: black;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+#form-book-block {
+    text-align: center;
+    width: 380px;
+    height: 360px;
+    position: fixed;
+    right: 40px;
+    top: 120px;
+    border-radius: 20px;
+    z-index: 1;
+    border: 1px solid black;
+    background-image: linear-gradient(-45deg, rgba( 255, 145, 144, 0.8), rgba( 94, 114, 235, 0.8));
+    display: none;
+}
+
+#form-book-block>h3 {
+    margin: 24px;
+    color: #2A263E;
+    text-transform: uppercase;
+}
+
+table {
+    text-align: left;
+    margin: 12px;
+}
+
+table td {
+    padding: 12px;
+}
+
+table input {
+    padding: 4px 12px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #14C4ED, #8750FB);
+    color: #fff;
+}
+
+#update-btn {
+    display: none;
+}
+
+#cancel-update-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+}
+
+.love-book {
+    text-decoration: none;
+}
+
+.love-book:hover>i {
+    display: flexbox;
+    color: yellow;
+}
+
+.readnow-class:hover,
+.edit-class:hover {
+    background-image: linear-gradient(45deg, green, #03adab, #fdc094, #031b88) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

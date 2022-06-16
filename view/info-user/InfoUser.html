@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info User</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/font/themify-icons/themify-icons.css" />
+    <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div class="nav-left">
+                <a href="../../index.html">
+                    <span class="nav-left__logo-brand">Chronos</span>
+                </a>
+            </div>
+            <div class="nav-right">
+                <button class="fa-solid fa-bell"></button>
+                <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/187925/6241d59a30f5b.png" alt="Picture User" id="img-user-icon" />
+                <a href="#"><span class="name-of-user">Phạm Minh Trí </span>
+            <i class="ti-angle-down"></i>
+          </a>
+            </div>
+        </header>
+        <main>
+            <aside>
+                <h3>User Profile</h3>
+                <ul id="nav">
+                    <li>
+                        <a href="#" class="hover-section1 hover1 hover-section">
+                            <i class="ti-user"></i>
+                            <span>User Info</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover-section2 hover-section">
+                            <i class="ti-heart"></i>
+                            <span>Favorites</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover-section3 hover-section">
+                            <i class="ti-star"></i>
+                            <span>Watchlist</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover-section4 hover-section">
+                            <i class="ti-settings"></i>
+                            <span>Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover-section5 hover-section">
+                            <i class="ti-bell"></i>
+                            <span>Notifications</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="log-out">
+                    <a href="#" class="">
+                        <i class="ti-shift-left"></i>
+                        <span>Log out</span>
+                    </a>
+                </div>
+            </aside>
+            <div id="info-user">
+                <div class="info-user">
+                    <div class="img-name-user">
+                        <a href="#"><img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/187925/6241d59a30f5b.png" alt="Picture" class="img-user" /></a>
+                        <span>
+                <h4 #name-user>Phạm Minh Trí</h4>
+                <p>Việt Nam, Huế</p>
+              </span>
+                    </div>
+                    <div class="info-user-edit">
+                        <form action="">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p>First Name</p>
+                                        <input type="text" class="first-name dis" disabled name="first-name" value="Phạm" />
+                                    </td>
+                                    <td>
+                                        <p>Last name</p>
+                                        <input type="text" class="last-name dis" name="last-name" disabled value="Minh Trí" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Email</p>
+                                        <input type="email" name="email" class="email" />
+                                    </td>
+                                    <td>
+                                        <p>Phone</p>
+                                        <input type="number" name="phone" class="phone" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Address</p>
+                                        <input type="text" name="address" class="adress" />
+                                    </td>
+                                    <td>
+                                        <p>Postal Code</p>
+                                        <input type="number" name="postalcode" class="postal-code" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        <button type="submit">Save Changes</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d2d9713aeb.js" crossorigin="anonymous"></script>
+    <script>
+        const navBtns = document.querySelectorAll(".hover-section");
+        const navBtn1 = document.querySelector(".hover-section1");
+        const navBtn2 = document.querySelector(".hover-section2");
+        const navBtn3 = document.querySelector(".hover-section3");
+        const navBtn4 = document.querySelector(".hover-section4");
+        const navBtn5 = document.querySelector(".hover-section5");
+
+        navBtn5.addEventListener("click", function() {
+            navBtn1.classList.remove("hover1");
+            navBtn2.classList.remove("hover1");
+            navBtn3.classList.remove("hover1");
+            navBtn4.classList.remove("hover1");
+            this.classList.add("hover1");
+        });
+        navBtn2.addEventListener("click", function() {
+            navBtn1.classList.remove("hover1");
+            navBtn5.classList.remove("hover1");
+            navBtn3.classList.remove("hover1");
+            navBtn4.classList.remove("hover1");
+            this.classList.add("hover1");
+        });
+        navBtn3.addEventListener("click", function() {
+            navBtn1.classList.remove("hover1");
+            navBtn2.classList.remove("hover1");
+            navBtn5.classList.remove("hover1");
+            navBtn4.classList.remove("hover1");
+            this.classList.add("hover1");
+        });
+        navBtn4.addEventListener("click", function() {
+            navBtn1.classList.remove("hover1");
+            navBtn2.classList.remove("hover1");
+            navBtn3.classList.remove("hover1");
+            navBtn5.classList.remove("hover1");
+            this.classList.add("hover1");
+        });
+        navBtn1.addEventListener("click", function() {
+            navBtn5.classList.remove("hover1");
+            navBtn2.classList.remove("hover1");
+            navBtn3.classList.remove("hover1");
+            navBtn4.classList.remove("hover1");
+            this.classList.add("hover1");
+        });
+    </script>
+</body>
+
+</html>

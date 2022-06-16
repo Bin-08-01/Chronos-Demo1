@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "userID": 1,
+        "content": "⌛ Chào mừng bạn đến với Chronos, chúng tôi chúc bạn tận hưởng thoải mái và đạt được nhiều thành công trong cuộc sống và công việc bằng cách quản lý tốt thời gian nhé 😍",
+        "image": "https://static.remove.bg/remove-bg-web/eb1bb48845c5007c3ec8d72ce7972fc8b76733b1/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg",
+        "time": "14:04 17-05-2022",
+        "link": "",
+        "mark": 0
+    },
+    {
+        "id": 2,
+        "userID": 3,
+        "content": "📬 John đã trả lời bình luận của bạn",
+        "image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80",
+        "time": "12:54 31-05-2022",
+        "link": "",
+        "mark": 1
+    },
+    {
+        "id": 3,
+        "userID": 12,
+        "content": "🎓 Đã có điểm thi của bạn ở môn Thiết kế Web (Trường Công nghệ thông tin và Truyền thông Việt Hàn)",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_th%C3%B4ng_tin_v%C3%A0_Truy%E1%BB%81n_th%C3%B4ng_Vi%E1%BB%87t_-_H%C3%A0n%2C_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_N%E1%BA%B5ng.png",
+        "time": "11:02 10-06-2022",
+        "link": "",
+        "mark": 1
+    },
+    {
+        "id": 4,
+        "userID": 12,
+        "content": "🎓 Lịch thi học kì II khoá 21 (Trường Công nghệ thông tin và Truyền thông Việt Hàn)",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_th%C3%B4ng_tin_v%C3%A0_Truy%E1%BB%81n_th%C3%B4ng_Vi%E1%BB%87t_-_H%C3%A0n%2C_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_N%E1%BA%B5ng.png",
+        "time": "22:56 12-06-2022",
+        "link": "",
+        "mark": 0
+    },
+    {
+        "id": 5,
+        "userID": 1,
+        "content": "⌛ Tài khoản của bạn đã hoạt động tích cực trong tuần này, hãy xem bảng xếp hạng của bạn và mọi người trong tuần nào ",
+        "image": "https://static.remove.bg/remove-bg-web/eb1bb48845c5007c3ec8d72ce7972fc8b76733b1/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg",
+        "time": "08:04 13-06-2022",
+        "link": "",
+        "mark": 1
+    }
+]

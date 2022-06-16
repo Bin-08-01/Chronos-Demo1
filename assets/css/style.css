@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    line-height: 1.5
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right bottom, #EC4899, #8b5cf6);
+    border-radius: 100rem;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #999;
+    border-radius: 100rem;
+}
+
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #C6CBE1;
+    text-decoration: none;
+}
+
+.no-display {
+    display: none !important;
+}
+
+.open {
+    display: flex !important;
+}
+
+.open2 {
+    display: inline !important;
+}
+
+.open3 {
+    display: block !important;
+}
+
+#main {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 92%;
+    height: 50rem;
+    background-image: linear-gradient(-45deg, #2D314D, #50577E);
+    border-radius: 30px;
+    margin: 40px 0;
+}
+
+header {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    width: 100%;
+    height: 48px;
+}
+
+#logo-div {
+    position: relative;
+    left: 8%;
+    float: left;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+#logo-div>a {
+    padding: 16px 12px 12px 12px;
+    background-color: rgba(126, 126, 126, 0.6);
+    border-radius: 10rem;
+}
+
+#brand-name {
+    font-size: 28px;
+    line-height: 48px;
+    background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logo-div>a:hover{
+    /* background-color: #808CBB; */
+    border-radius: 30px;
+    padding-top: 24px;
+    transition: all 0.5s ease-in;
+
+}
+
+#logo-div>a:hover #brand-name{
+    font-size: 40px;
+    background-image: linear-gradient(-45deg,  #EC4899, #8b5cf6, #EC4899, #8b5cf6, #EC4899, #8b5cf6);
+    background-position: right center;
+    transition: all 0.5s ease-in;
+    background-size: 200% auto;
+}
+
+
+#nav-div {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#nav {
+    display: inline-block;
+    background-color: rgba(125, 125, 125, 0.5);
+    padding: 0 8px;
+    border-radius: 2rem;
+}
+
+#nav>li {
+    display: inline-block;
+    list-style: none;
+}
+
+#nav>li>a {
+    text-decoration: none;
+    padding: 10px 12px;
+    line-height: 48px;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 5px 2px 4px grey;
+}
+
+#nav>li>a:hover {
+    color: #23283F;
+    border-radius: 30px;
+    background-color: #808CBB;
+}
+
+#sign-div {
+    width: 180px;
+    height: 100%;
+    /* background-color: green; */
+    float: right;
+    text-align: center;
+    margin-right: 12px;
+}
+
+#sign-in:hover {
+    background-image: linear-gradient(to right, #E06C78, #5874DC);
+    color: #384e78;
+    border-radius: 10rem;
+}
+
+#sign-in-div {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#sign-in-div>a {
+    display: block;
+    line-height: 48px;
+    padding: 0 8px;
+    text-decoration: none;
+    background-color: rgba(125, 125, 125, 0.4);
+    border-radius: 2rem;
+    margin-right: 8px;
+}
+
+#sign-up-div {
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-sign-up {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 4px inset #5670C5;
+    cursor: pointer;
+    background-color: #3E4464;
+    color: #ffffff;
+}
+
+#button-sign-up:hover {
+    background-image: linear-gradient(to right, #E06C78, #5874DC);
+    color: #384e78;
+}
+
+#content-section {
+    padding-top: 60px;
+    text-align: center;
+}
+
+#content-section>h1 {
+    display: inline-block;
+    font-size: 80px;
+    color: #F0F3FF;
+    background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* animation-name: animationForLogo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+}
+
+#content-section>h1:hover{
+    background-image: linear-gradient(-45deg,  #EC4899, #8b5cf6, #EC4899, #8b5cf6, #EC4899, #8b5cf6);
+    background-position: right center;
+    transition: all 6s ease-in;
+    background-size: 200% auto;
+}
+
+#content-section>p {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 40px 0;
+}
+
+#start-button {
+    width: 120px;
+    height: 46px;
+    border-radius: 20px;
+    background-image: linear-gradient(-45deg, #3E64E7, #5E89FC);
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+}
+
+#start-button:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.animation-1 {
+    background-color: #ECE9EF !important;
+}
+
+.animation-2 {
+    background-color: #ffffff !important;
+    z-index: 1;
+}
+
+#container {
+    min-width: 96%;
+    min-height: 600px;
+    background-image: url('../../img/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 2rem;
+}
+
+@keyframes animationForLogo {
+    from {
+        background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    to {
+        background-image: linear-gradient(to right, red, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+main {
+    width: 100%;
+    height: 76rem;
+}
+
+#introduce-web {
+    height: 46rem;
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#introduce-web>iframe {
+    border-radius: 2rem;
+    width: 700px;
+    height: 400px;
+}
+
+#introduce-web>.content {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+#introduce-web>.content>h4 {
+    margin: 24px;
+}
+
+#introduce-team {
+    position: relative;
+    /* background-color: rosybrown; */
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-31-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e1ee6e84fa2c584170bab2733ea5a1b0);
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+#introduce-team>.title {
+    position: absolute;
+    top: 24px;
+    background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#list-member {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#list-member>li img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100rem;
+    margin-bottom: 20px;
+    border: 2px solid #999;
+}
+
+#list-member>li {
+    width: 240px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(-45deg, #ff9190, #5e72eb);
+    padding: 20px 25px 60px 25px;
+    border-radius: 2rem;
+    border: 4px solid #999;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+#list-member>li:hover {
+    background-image: linear-gradient(-45deg, #fe7b79,  #f3bab9 ,#8f9ce3, #f3bab9,#4761f3);
+    background-position: right center;
+    transition: all 8s ease-in;
+    background-size: 200% auto;
+}
+
+#list-member>li:hover .role {
+    background-image: linear-gradient(to bottom right, #031b88, #FB7B8E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#list-member>li div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#list-member>li>div>h4 {
+    margin-bottom: 12px;
+}
+
+#list-member>li>div>.role {
+    margin: 12px 0;
+    background-image: linear-gradient(to bottom right, #FB7B8E, #031b88);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#list-member .icon {
+    width: 150px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+#list-member .icon-1 {
+    cursor: pointer;
+    display: block;
+    background-image: url(../../img/gmail.png);
+    background-size: 100%;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+}
+
+#list-member .icon-2 {
+    cursor: pointer;
+    display: block;
+    background-image: url(../../img/facebook-logo-2019.png);
+    background-size: 100%;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+}
+
+#list-member .icon-3 {
+    cursor: pointer;
+    display: block;
+    background-image: url(../../img/github.png);
+    background-size: 100%;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+}
+
+footer {
+    /* margin-top: 64px; */
+    width: 100%;
+    height: 8rem;
+    background-color: #162E44;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.info-contact {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .img-1,
+footer .img-2,
+footer .img-3 {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+footer .img-1 {
+    background-image: url(../../img/gmail.png);
+}
+
+footer .img-2 {
+    background-image: url(../../img/phone.png);
+}
+
+footer .img-3 {
+    background-image: url(../../img/location.png);
+}
+
+#google-btn {
+    background-image: url(../../img/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 24px;
+}
+
+#facebook-btn {
+    background-image: url(../../img/facebook-logo-2019.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 24px;
+}
+
+#apple-btn {
+    background-image: url(../../img/apple.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 24px;
+}
+
+#button-directional {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    z-index: 2;
+}
+
+#button-directional button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #999;
+}
+
+#button-directional a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-directional img {
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #list-member li{
+        width: 30vw;
+        margin: 12px 32px;
+    }
+    #list-member{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #list-member li {
+        width: 36vw;
+        margin: 12px 6vw;
+    }
+    #list-member {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    iframe{
+        display: inline-block;
+        width: 90% !important;
+        height: 50vw !important;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #list-member li {
+        width: 36vw;
+        margin: 12px 6vw;
+    }
+
+    #list-member {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #list-member li {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        width: 84vw;
+        min-width: 300px;
+        height: 100px;
+    }
+
+    #list-member li img{
+        width: 120px;
+        height: 120px;
+    }
+}

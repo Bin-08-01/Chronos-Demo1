@@ -1,0 +1,422 @@
+{
+  "book": [
+    {
+      "name": "Tôi thấy hoa vàng trên cỏ xanh",
+      "author": "Nhật Ánh",
+      "link": "https://dtruyen.com/toi-thay-hoa-vang-tren-co-xanh/hoa-tay_717200.html",
+      "avatar": "https://salt.tikicdn.com/cache/w1200/media/catalog/product/t/o/toi_thay_hoa_vang_4.jpg",
+      "id": 1
+    },
+    {
+      "name": "Spy x Family",
+      "author": "Anya",
+      "avatar": "https://storage-bravo.cuutruyen.net/file/cuutruyen/uploads/manga/152/cover/processed-8741530fe7af6a4d7a3bf45e0d2475a1.jpg",
+      "link": "https://cuutruyen.net/mangas/152",
+      "id": 3
+    },
+    {
+      "name": "Clean Code",
+      "author": "Robert C. Martin ",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "link": "https://cuongquach.com/ebook-clean-code-pdf-download-free.html",
+      "id": 5
+    },
+    {
+      "name": "Mindset: The New Psychology of Success",
+      "author": "Carol Dweck",
+      "avatar": "data:image/jpeg;base64,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",
+      "link": "https://www.dtv-ebook.com/doconline.php?hash=MTE4Mzg=#epubcfi(/6/4[html133]!4/4/6[-2088297299]/290/2/2/2/2/1:0)",
+      "id": 6
+    },
+    {
+      "name": "Vũ trụ trong võ hạt dẻ",
+      "author": "Stephen Hawking",
+      "avatar": "https://saomaicenter.org/sites/default/files/styles/image_179x282/public/2021-03/19.gif?itok=WU6mu_yh",
+      "link": "https://playlist.vn/doc-online/bibi/?book=V%C5%A9%20Tr%E1%BB%A5%20trong%20v%E1%BB%8F%20H%E1%BA%A1t%20D%E1%BA%BB%20-%20Stephen%20Hawking.epub",
+      "id": 7
+    },
+    {
+      "name": "The typping point",
+      "author": "Malcolm Gladwell",
+      "avatar": "https://www.littlebrown.com/wp-content/uploads/2017/06/9780316316965.jpg?fit=1733%2C2600",
+      "link": "https://websach.com/the-tipping-point/",
+      "id": 8
+    },
+    {
+      "name": "Homo Deus",
+      "author": "Yuval Noah Harari",
+      "avatar": "https://salt.tikicdn.com/cache/400x400/ts/product/f6/c4/c1/37cc7da534a3a25e39e4b5e32bf5f6ba.jpg.webp",
+      "link": "https://drive.google.com/file/d/1DzOjyXEyr7Ed7A0QiEXvcQN7-PmIVat8/view",
+      "id": 9
+    },
+    {
+      "name": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "avatar": "https://salt.tikicdn.com/cache/400x400/ts/product/f1/30/2f/e90b72d0bad16ea627ccce67c8ba7aae.jpg.webp",
+      "link": "https://www.docsach.top/sapiens-luoc-su-loai-nguoi-yuval-noah-harari/",
+      "id": 10
+    },
+    {
+      "name": "Lược sử thế giới",
+      "author": "E.H. Gombrich",
+      "avatar": "https://sachnhanam.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/20211029111513/42a00b0b7b26d5dcb3d71722256cefb0.jpg",
+      "link": "https://sachnhanam.com/doc-thu/doc-thu-luoc-su-the-gioi-e-h-gombrich/",
+      "id": 11
+    },
+    {
+      "name": "Man's Search for Meaning",
+      "author": "Viktor Frankl",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/I/61nTspM+BYL.jpg",
+      "link": "https://www.onlinereadfreebooks.com/en/Man-s-Search-for-Meaning-309320/1",
+      "id": 12
+    },
+    {
+      "name": "Nhà giả kim",
+      "author": "Paulo Coelho",
+      "avatar": "https://img.dtruyen.com/public/images/large/nhagiakimT9yPna2tPh.jpg",
+      "link": "https://truyenfull.vn/nha-gia-kim-cau-chuyen-mot-giac-mo/chuong-1/",
+      "id": 13
+    },
+    {
+      "name": "Lược sử thời gian ",
+      "author": "Stephen Hawking",
+      "avatar": "https://chiasemoi.com/wp-content/uploads/2018/03/luoc-su-thoi-gian.jpg",
+      "link": "https://docsach24.co/doc-sach/luoc-su-thoi-gian/gioi-thieu-cuon-sach-luoc-su-thoi-gian-8105.html",
+      "id": 14
+    }
+  ],
+  "music": [
+    {
+      "name": "Bittersweet chocolate",
+      "singer": "mr. hong",
+      "link": "./locateStorage/sound/bittersweetchocolate.mp3",
+      "picture": "https://i1.sndcdn.com/artworks-000221271515-o48ifk-t500x500.jpg",
+      "time": "4:00",
+      "id": 1
+    },
+    {
+      "name": "cafe sua da for her",
+      "singer": "mr. hong",
+      "link": "./locateStorage/sound/cafesuadaforher.mp3",
+      "picture": "https://i1.sndcdn.com/artworks-JdmTRdepk3C7goIy-v2cyPw-t500x500.jpg",
+      "time": "3:47",
+      "id": 2
+    },
+    {
+      "name": "sparks",
+      "singer": "mr. hong",
+      "link": "./locateStorage/sound/sparks.mp3",
+      "picture": "https://i1.sndcdn.com/artworks-JdmTRdepk3C7goIy-v2cyPw-t500x500.jpg",
+      "time": "4:02",
+      "id": 3
+    },
+    {
+      "name": "Late Night Melancholy",
+      "singer": "Rude Boy & White Cherry",
+      "link": "./locateStorage/sound/LateNightMelancholy.mp3",
+      "picture": "https://i1.sndcdn.com/artworks-000543883560-7ngz2j-t500x500.jpg",
+      "time": "4:18",
+      "id": 4
+    },
+    {
+      "name": "Pastlives",
+      "singer": "sapientdream",
+      "link": "./locateStorage/sound/Pastlives.mp3",
+      "picture": "https://i1.sndcdn.com/artworks-wOfAlbtKGyGlXPju-y74XGg-t500x500.jpg",
+      "time": "2:33",
+      "id": 5
+    },
+    {
+      "name": "I Need a Girl",
+      "singer": "Lo-fi Type Beat",
+      "link": "./locateStorage/sound/ineedagirl.mp3",
+      "picture": "https://i.ytimg.com/vi/nSn8eYrmBhw/sddefault.jpg",
+      "time": "4:09",
+      "id": 6
+    },
+    {
+      "name": "YOUR SMILE",
+      "singer": "Obito",
+      "link": "./locateStorage/sound/yoursmile.mp3",
+      "picture": "https://i1.sndcdn.com/artworks-gSOpFLilzLd5cuBv-nTAzxg-t500x500.jpg",
+      "time": "3:00",
+      "id": 7
+    },
+    {
+      "name": "Snowman",
+      "singer": "WYS",
+      "link": "./locateStorage/sound/WYSSnowman.mp3",
+      "picture": "https://i.scdn.co/image/ab67616d0000b273bc475d512ed99639f005bd8c",
+      "time": "3:16",
+      "id": 8
+    },
+    {
+      "name": "Cotton Cloud",
+      "singer": "Fatb",
+      "link": "./locateStorage/sound/FatbCottonCloud.mp3",
+      "picture": "https://i.scdn.co/image/ab67616d00001e02fc33bc00b7c7df47b4643ea5",
+      "time": "2:04",
+      "id": 9
+    },
+    {
+      "name": "The Places We Used To Walk",
+      "singer": "rook1e x tender spring",
+      "link": "./locateStorage/sound/ThePlacesWeUsedToWalk.mp3",
+      "picture": "https://i1.sndcdn.com/artworks-zJQ2LypJ5H5mqmi3-4GGpiA-t500x500.jpg",
+      "time": "2:16",
+      "id": 10
+    },
+    {
+      "name": "Wool gloves",
+      "singer": "imagiro",
+      "link": "./locateStorage/sound/imagiroWoolGloves.mp3",
+      "picture": "https://lastfm.freetls.fastly.net/i/u/ar0/a3f3b5a332979a51a892145ac5848835.jpg",
+      "time": "2:46",
+      "id": 11
+    }
+  ],
+  "file": [
+    {
+      "name": "SpyXFamily.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/vi/9/90/Microsoft_Photos_Icon_on_Windows_10.png",
+      "link": "https://i.pinimg.com/564x/10/c9/c0/10c9c02224ae9c08ba781bae2a856675.jpg",
+      "capacity": "34,0kB",
+      "id": 1
+    },
+    {
+      "name": "anyaLearning.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/vi/9/90/Microsoft_Photos_Icon_on_Windows_10.png",
+      "link": "https://i.pinimg.com/564x/26/3b/90/263b90473c3651b4fc3d30b462152c0b.jpg",
+      "capacity": "64,4kB",
+      "id": 2
+    },
+    {
+      "name": "thiennhien.jpg",
+      "picture": "",
+      "link": "https://btnmt.1cdn.vn/2021/06/01/t8.jpg",
+      "capacity": "100kB",
+      "id": 3
+    },
+    {
+      "name": "vd1.png",
+      "picture": "",
+      "link": "https://i.pinimg.com/564x/f8/56/cc/f856ccb462d5e5b7f1f7f9e05d0138de.jpg",
+      "capacity": "42,3kB",
+      "id": 4
+    },
+    {
+      "name": "vd2.jpg",
+      "picture": "",
+      "link": "https://i.pinimg.com/564x/ca/73/cd/ca73cd55c62f403bbaea57647f63d72c.jpg",
+      "capacity": "42,3kB",
+      "id": 5
+    },
+    {
+      "name": "vd3.ppng",
+      "picture": "",
+      "link": "https://i.pinimg.com/564x/a7/32/e3/a732e392b657be4fceffdffd214e5e21.jpg",
+      "capacity": "42,3kB",
+      "id": 6
+    },
+    {
+      "name": "vd4.jpg",
+      "picture": "",
+      "link": "https://i.pinimg.com/564x/14/1d/35/141d35639e413c37c6a30722b0b302a3.jpg",
+      "capacity": "42,3kB",
+      "id": 7
+    },
+    {
+      "name": "vd6.jpg",
+      "picture": "",
+      "link": "https://i.pinimg.com/564x/e7/66/2d/e7662d59dd11c6b09606c1ae3711fecc.jpg",
+      "capacity": "42,3kB",
+      "id": 8
+    }
+  ],
+  "user": [
+    {
+      "name": "Minh Tri",
+      "avatar": "https://i.pinimg.com/564x/97/c9/08/97c9086bed00a9961c030ecfd00e84f9.jpg",
+      "id": 1
+    },
+    {
+      "name": "Bin1",
+      "avatar": "https://i.pinimg.com/564x/0f/04/ac/0f04ac135a8d6db96514bd97261c1c97.jpg",
+      "id": 2
+    },
+    {
+      "name": "Bin2",
+      "avatar": "https://i.pinimg.com/564x/71/4f/99/714f99a74891d29204448dd09830040a.jpg",
+      "id": 3
+    },
+    {
+      "name": "Minh Trí",
+      "avatar": "https://files.fullstack.edu.vn/f8-prod/user_avatars/187925/6241d59a30f5b.png",
+      "id": 4
+    },
+    {
+      "name": "Quốc Dũng",
+      "avatar": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-1/281565541_1182845819130216_4807701537643087976_n.jpg?stp=dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=8Zcy2pksiEkAX_D7rPK&_nc_ht=scontent.fdad1-1.fna&oh=00_AT_9EEiP6erdyUhoXws30SBYec_KOziL75X-uVaSPzK1YA&oe=62AB3557",
+      "id": 5
+    },
+    {
+      "name": "Thu Phương",
+      "avatar": "https://bin-08-01.github.io/Chronos-Demo2/img/avatar3.jpg",
+      "id": 6
+    },
+    {
+      "name": "Công Bảo",
+      "avatar": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/278267343_703004164184715_2211383363671157951_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZIEWIALVzYoAX9WgA7I&_nc_ht=scontent.fdad1-3.fna&oh=00_AT9qwUx1VhEnYKhC3eGEXplcK25rEdrBDuX_pSCvL5nUJw&oe=62AB193C",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Hello, How are u?",
+      "idUser": 2,
+      "id": 1
+    },
+    {
+      "comment": "Hello, I'm fine",
+      "idUser": 1,
+      "id": 2
+    },
+    {
+      "comment": "What do u think about this page?",
+      "idUser": 2,
+      "id": 3
+    },
+    {
+      "comment": "Oh, I feel so good ^^, and u ?",
+      "idUser": 1,
+      "id": 4
+    },
+    {
+      "comment": "Oh, me 2, a cat in your avatar is so cute ~~",
+      "idUser": 2,
+      "id": 5
+    },
+    {
+      "comment": "<3 Thank you very much, you look so cute",
+      "idUser": 1,
+      "id": 6
+    },
+    {
+      "comment": "<3 Thank you very much, you look so cute",
+      "idUser": 1,
+      "id": 7
+    },
+    {
+      "comment": "Hello Bin1, Do you think what I'm thinking?",
+      "idUser": 3,
+      "id": 8
+    },
+    {
+      "comment": "Yeah, you're here, Bin2, gud to see u",
+      "idUser": 2,
+      "id": 9
+    },
+    {
+      "comment": "Hello everyone!",
+      "idUser": 4,
+      "id": 10
+    },
+    {
+      "comment": "Test chat",
+      "idUser": 4,
+      "id": 11
+    },
+    {
+      "comment": "Hello, how are u today ^^",
+      "idUser": 4,
+      "id": 12
+    },
+    {
+      "comment": "Fine, how about you",
+      "idUser": 5,
+      "id": 13
+    },
+    {
+      "comment": "I have a question, can anyone help me?",
+      "idUser": 6,
+      "id": 14
+    },
+    {
+      "comment": "Yeah, just ask",
+      "idUser": 7,
+      "id": 15
+    },
+    {
+      "comment": "No Question, It's just a test hihi ^^",
+      "idUser": 6,
+      "id": 16
+    },
+    {
+      "comment": "LMAO",
+      "idUser": 5,
+      "id": 17
+    },
+    {
+      "comment": "🤣🤣",
+      "idUser": 4,
+      "id": 18
+    },
+    {
+      "comment": "😑😑😑",
+      "idUser": 7,
+      "id": 19
+    },
+    {
+      "comment": "Hello",
+      "idUser": 4,
+      "id": 20
+    }
+  ],
+  "notification": [
+    {
+      "id": 1,
+      "userID": 1,
+      "content": "⌛ Chào mừng bạn đến với Chronos, chúng tôi chúc bạn tận hưởng thoải mái và đạt được nhiều thành công trong cuộc sống và công việc bằng cách quản lý tốt thời gian nhé 😍",
+      "image": "https://static.remove.bg/remove-bg-web/eb1bb48845c5007c3ec8d72ce7972fc8b76733b1/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg",
+      "time": "14:04 17-05-2022",
+      "link": "",
+      "mark": 0
+    },
+    {
+      "id": 2,
+      "userID": 3,
+      "content": "📬 John đã trả lời bình luận của bạn",
+      "image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "time": "12:54 31-05-2022",
+      "link": "",
+      "mark": 1
+    },
+    {
+      "id": 3,
+      "userID": 12,
+      "content": "🎓 Đã có điểm thi của bạn ở môn Thiết kế Web (Trường Công nghệ thông tin và Truyền thông Việt Hàn)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_th%C3%B4ng_tin_v%C3%A0_Truy%E1%BB%81n_th%C3%B4ng_Vi%E1%BB%87t_-_H%C3%A0n%2C_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_N%E1%BA%B5ng.png",
+      "time": "11:02 10-06-2022",
+      "link": "",
+      "mark": 1
+    },
+    {
+      "id": 4,
+      "userID": 12,
+      "content": "🎓 Lịch thi học kì II khoá 21 (Trường Công nghệ thông tin và Truyền thông Việt Hàn)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_th%C3%B4ng_tin_v%C3%A0_Truy%E1%BB%81n_th%C3%B4ng_Vi%E1%BB%87t_-_H%C3%A0n%2C_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_N%E1%BA%B5ng.png",
+      "time": "22:56 12-06-2022",
+      "link": "",
+      "mark": 0
+    },
+    {
+      "id": 5,
+      "userID": 1,
+      "content": "⌛ Tài khoản của bạn đã hoạt động tích cực trong tuần này, hãy xem bảng xếp hạng của bạn và mọi người trong tuần nào ",
+      "image": "https://static.remove.bg/remove-bg-web/eb1bb48845c5007c3ec8d72ce7972fc8b76733b1/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg",
+      "time": "08:04 13-06-2022",
+      "link": "",
+      "mark": 1
+    }
+  ]
+}

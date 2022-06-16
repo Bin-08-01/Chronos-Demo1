@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    line-height: 1.5
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+    border-radius: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#add-comment-box {
+    position: fixed;
+    bottom: 50px;
+    left: 28%;
+    right: 28%;
+    height: 60px;
+    background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+    z-index: 1;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comment {
+    position: relative;
+    width: 98%;
+    height: 50px;
+    background-color: #2A263E;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-comment-box>img {
+    position: absolute;
+    left: 20px;
+    width: 36px;
+    border-radius: 100rem;
+    height: 36px;
+    border: 1px solid #999;
+    z-index: 1;
+}
+
+#comment>input {
+    padding: 8px 8px 8px 8px;
+    width: 84%;
+    outline: none;
+    border: none;
+    background-color: #2A263E;
+    color: #999;
+    font-size: 20px;
+}
+
+#comment:hover {
+    opacity: 0.9;
+}
+
+.sound-icon {
+    position: absolute;
+    font-size: 20px;
+    right: 100px;
+    padding: 6px;
+    /* background-color: #999; */
+    border-radius: 100rem;
+    cursor: pointer;
+    color: #999;
+}
+
+.file-icon {
+    position: absolute;
+    right: 64px;
+    font-size: 20px;
+    padding: 6px;
+    /* background-color: #999; */
+    border-radius: 100rem;
+    color: #999;
+    cursor: pointer;
+}
+
+.file-icon:hover,
+.sound-icon:hover {
+    background-color: #999;
+    color: #000;
+}
+
+.send-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 24px;
+    padding: 6px;
+    border-radius: 100rem;
+    color: #999;
+    background-color: #000;
+}
+
+#main {
+    position: relative;
+    width: 92%;
+    height: 660px;
+    background-color: #2A263E;
+    margin-top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+}
+
+li {
+    list-style: none;
+    width: 800px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #34324C;
+    margin: 8px;
+    border: 1px solid #999;
+}
+
+.avatar {
+    float: left;
+    display: inline-block;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+    width: 300px;
+    background-color: #2A263E;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 4px;
+}
+
+.comment>span,
+.comment>h4 {
+    margin-left: 8px;
+}
+
+.comment>h4 {
+    display: inline-block;
+    width: 200px;
+    background-image: linear-gradient(to right, #EC4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.comment>span {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    color: #999;
+}
+
+#list-comment li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    border: 1px solid #999;
+}
+
+#list-comment {
+    position: relative;
+}
+
+#comment-chat {
+    overflow: auto;
+    height: 600px;
+    overflow-x: hidden;
+}
+
+#button-to-header>span {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    z-index: 1;
+    background-image: linear-gradient(to right, #031b88, #fb7b8e);
+    /* padding: 15px 16px; */
+    border-radius: 100rem;
+    border: 2px solid #56c596;
+    cursor: pointer;
+}
+
+#button-to-header>span:hover {
+    background-image: linear-gradient(to left, #031b88, #fb7b8e);
+}
+
+.header-icon {
+    color: #fff;
+    display: block;
+    padding: 12px;
+}

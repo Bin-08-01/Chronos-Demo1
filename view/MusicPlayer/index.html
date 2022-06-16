@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="music-box">
+            <span class="music">Music</span>
+            <span class="time">Time</span>
+
+            <ul id="list-music"></ul>
+        </div>
+    </div>
+    <nav>
+        <div id="info-div-nav">
+            <div class="img">
+                <img src="https://i1.sndcdn.com/artworks-000221271515-o48ifk-t500x500.jpg" alt="" id="avatar-music" />
+            </div>
+            <div class="info">
+                <h4 class="name-song">
+                    Bittersweet chocolate<i class="ti-heart" class="mark-song-heart"></i>
+                </h4>
+
+                <span class="name-singer">mr. hong</span>
+            </div>
+        </div>
+        <div id="controller-nav">
+            <audio src="./locateStorage/sound/bittersweetchocolate.mp3" id="song-audio-tag"></audio>
+            <input type="range" name="range" id="range" class="range" />
+            <div class="timer">
+                <div class="duration">0:00</div>
+                <div class="remaining">4:00</div>
+            </div>
+            <div class="controller">
+                <i class="ti-control-skip-backward previous"></i>
+                <i class="ti-control-play play"></i>
+                <i class="ti-control-skip-forward next"></i>
+            </div>
+        </div>
+        <div id="function-nav">
+            <i class="ti-reload loop"></i>
+            <i class="ti-control-shuffle shuffle"></i>
+            <i class="ti-volume volume"> </i>
+            <input type="range" name="range-volume" id="range-volume" value="100" />
+        </div>
+    </nav>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/event.js"></script>
+</body>
+
+</html>

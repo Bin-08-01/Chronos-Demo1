@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronos</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/sign.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="container">
+            <header>
+                <div id="logo-div">
+                    <a href="#">
+                        <i></i>
+                        <span id="brand-name">Chronos</span>
+                    </a>
+                </div>
+                <div id="nav-div">
+                    <ul id="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Registration</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </div>
+                <div id="sign-div">
+                    <div id="sign-in-div">
+                        <a href="#" id="sign-in" class="sign-in">Sign in</a>
+                    </div>
+                    <div id="sign-up-div">
+                        <button id="button-sign-up" onclick="">Sign up</button>
+                    </div>
+                </div>
+            </header>
+            <div id="content-section">
+                <h1>Chronos</h1>
+                <p>Websites for time management</p>
+                <button id="start-button">START</button>
+            </div>
+        </div>
+        <main>
+            <div id="introduce-web">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fhm6xH22CtE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="content">
+                    <h4>ABOUT WEBSITE</h4>
+                    <p>
+                        This website helps you in some way for managing your time and work, making it optimal and
+                        convenient for you. Chronos provides you with great tools to help you work, make your life
+                        easier and more enjoyable. What are you waiting for, register and experience
+                        Chronos now...
+                    </p>
+                </div>
+            </div>
+            <div id="introduce-team">
+                <div class="title">
+                    <h3>TEAM MEMBER</h3>
+                </div>
+                <ul id="list-member">
+                    <li class="member">
+                        <img src="./img/avatar2.jpg" alt="" />
+                        <div>
+                            <h4>Trần Công Bảo</h4>
+                            <p class="role">Content UI/UX</p>
+                            <p class="icon">
+                                <i class="icon-1"></i>
+                                <i class="icon-2"></i>
+                                <i class="icon-3"></i>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="member">
+                        <img src="./img/avatar1.jpg" alt="" />
+                        <div>
+                            <h4>Trương Thế Quốc Dũng</h4>
+                            <p class="role">Management</p>
+                            <p class="icon">
+                                <i class="icon-1"></i>
+                                <i class="icon-2"></i>
+                                <i class="icon-3"></i>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="member">
+                        <img src="./img/avatar3.jpg" alt="" />
+                        <div>
+                            <h4>Đỗ Thị Thu Phương</h4>
+                            <p class="role">Design</p>
+                            <p class="icon">
+                                <i class="icon-1"></i>
+                                <i class="icon-2"></i>
+                                <i class="icon-3"></i>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="member">
+                        <img src="./img/Anya3.jpg" alt="" />
+                        <div>
+                            <h4>Phạm Minh Trí</h4>
+                            <p class="role">Developer</p>
+                            <p class="icon">
+                                <i class="icon-1"></i>
+                                <i class="icon-2"></i>
+                                <i class="icon-3"></i>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <h4>CONTACT US</h4>
+            <div class="info-contact">
+                <span class="img-1"></span>
+                <span class="img-2"></span>
+                <span class="img-3"></span>
+            </div>
+        </footer>
+    </div>
+    <div id="sign-pop-up-div" class="">
+        <div id="form-start">
+            <div class="image-header"></div>
+            <div class="content">
+                <h3>Discover your <br />Dream job Here</h3>
+                <span>Explore all the most exiting jobs roles <br />based on your
+                    interest And study major</span>
+            </div>
+            <div class="footer">
+                <button type="button" class="register-btn">Register</button>
+                <button type="button" class="sign-in-btn">Sign in</button>
+            </div>
+        </div>
+        <div id="form-sign-in" class="">
+            <div class="header">
+                <h2>Hello Again!</h2>
+                <p>Welcome back you've been missed</p>
+            </div>
+            <div class="info-to-sign-in">
+                <form action="">
+                    <input type="text" id="sign-in__username" class="username radius-border"
+                        placeholder="Enter Username" name="username" onkeydown="funcSignIn(event)" />
+                    <span class="user-name-alert"></span>
+                    <input type="password" class="password radius-border" placeholder="Password" maxlength="52"
+                        name="password" id="pw1" onkeydown="funcSignIn(event)" />
+                    <button type="button" class="fa-solid fa-eye fa-eye1"></button>
+                    <button type="button" class="fa-solid fa-eye-slash fa-eye-slash1"></button>
+
+                    <a href="#">
+                        <p>Recovery Password</p>
+                    </a>
+                    <button id="button-sign-in" class="radius-border" type="button" onclick="SignInAction()">
+                        Sign In
+                    </button>
+                </form>
+            </div>
+            <div class="external-link">
+                <span>Or continue with</span>
+                <div id="icon-link">
+                    <button id="google-btn" class="button-ex"></button>
+                    <button id="facebook-btn" class="button-ex"></button>
+                    <button id="apple-btn" class="button-ex"></button>
+                </div>
+                <span class="footer">Not a remember?
+                    <a href="#" id="register-now">Register now</a>
+                </span>
+            </div>
+        </div>
+        <div id="form-sign-up">
+            <div class="header">
+                <h2>Welcome!</h2>
+                <p>Welcome to my website...!</p>
+            </div>
+            <div class="info-sign-up">
+                <form action="">
+                    <input type="text" class="f-name ip-su" placeholder="First Name" name="first-name" />
+                    <input type="text" class="l-name ip-su" placeholder="Last Name" name="last-name" />
+                    <input type="text" class="su-username ip-su input-sign-up-length" placeholder="Username"
+                        name="username" />
+                    <input type="password" id="pw2" class="su-password ip-su input-sign-up-length"
+                        placeholder="Password" name="password" />
+                    <button type="button" class="fa-solid fa-eye sign-up-eye no-display"></button>
+                    <button type="button" class="fa-solid fa-eye-slash sign-up-eye-slash"></button>
+                    <input type="password" id="pw3" class="retype-pass ip-su input-sign-up-length"
+                        placeholder="Re-type Password" name="password-retype" />
+                    <button type="button" class="fa-solid fa-eye sign-up-eye-retype no-display"></button>
+                    <button type="button" class="fa-solid fa-eye-slash sign-up-eye-slash-retype"></button>
+                    <input type="email" class="email ip-su input-sign-up-length" placeholder="Email" name="email" />
+                    <button type="submit" id="button-sign-up-form">SIGN UP</button>
+                </form>
+            </div>
+            <div class="external-link">
+                <span>Or continue with</span>
+                <div id="icon-link">
+                    <button id="google-btn" class="button-ex">
+                        <!-- <i class="fa-brands fa-google"></i> -->
+                    </button>
+                    <button id="facebook-btn" class="button-ex">
+                        <!-- <i class="fa-brands fa-facebook"></i> -->
+                    </button>
+                    <button id="apple-btn" class="button-ex">
+                        <!-- <i class="fa-brands fa-apple"></i> -->
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="button-directional">
+        <button>
+            <a href="#"><img src="./img/arrow.png" alt="" /></a>
+        </button>
+    </div>
+
+    <div id="reponsive-div">
+        <div class="image-div"></div>
+        <div class="content-div">
+            <h3>The website is currently not supported on tablets and phones, please use a computer to use our service.
+            </h3>
+        </div>
+    </div>
+    <script src="assets/JS/formSign.js"></script>
+    <script src="assets/JS/Layout.js"></script>
+    <script src="https://kit.fontawesome.com/d2de91f16f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

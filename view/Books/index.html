@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css" />
+    <script src="https://kit.fontawesome.com/e08ccc0181.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="main">
+        <main>
+            <ul id="list-books-block"></ul>
+        </main>
+    </div>
+    <nav>
+        <button id="add-book-btn">
+        <span>
+          <span>Add Your Book</span>
+          <i class="ti-plus"></i>
+        </span>
+      </button>
+    </nav>
+    <div id="form-book-block">
+        <h3>Book information</h3>
+        <table>
+            <tr>
+                <td>
+                    <span>Book's name:</span>
+                </td>
+                <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Author:</span>
+                </td>
+                <td>
+                    <input type="text" name="author" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Picture:</span>
+                </td>
+                <td>
+                    <input type="text" name="avatar" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Link:</span>
+                </td>
+                <td>
+                    <input type="text" name="link" />
+                </td>
+            </tr>
+        </table>
+        <button id="add-book-form-btn" class="btn">Add your book</button>
+        <button id="update-btn" class="btn">Update</button>
+        <button id="cancel-update-btn">Close</button>
+    </div>
+    <script src="./assets/js/event.js"></script>
+    <script src="./assets/js/viewAndEvent.js"></script>
+</body>
+
+</html>

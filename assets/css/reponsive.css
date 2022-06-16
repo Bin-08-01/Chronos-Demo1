@@ -1,0 +1,44 @@
+#reponsive-div{
+    /* left: 0;
+    right: 0; */
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reponsive-div .image-div{
+    background-image: url("../../img/error.png");
+    background-size: 100%;
+    min-width: 300px;
+    min-height: 150px;
+    width: 40vw;
+    height: 20vw;
+    border-radius: 1rem;
+    margin-bottom: 60px;
+}
+
+#reponsive-div .content-div{
+    margin: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+@media (max-width: 86em) {
+    #reponsive-div{
+        display: flex;
+    }
+}
+
+@media (max-width: 60em) {
+    #reponsive-div .image-div{
+        width: 60vw;
+        height: 30vw;
+    }
+}

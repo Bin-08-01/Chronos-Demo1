@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronos</title>
+    <link rel="stylesheet" href="../../assets/font/themify-icons/themify-icons.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/note.css" />
+    <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../../assets/font/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="../../assets/css/reponsive.css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div class="logo">
+                <a href="">
+                    <h2>Chronos</h2>
+                </a>
+            </div>
+
+            <div class="user-logo">
+                <div class="noti">
+                    <a href="#" class="ti-bell user-logo__nof" onclick="showNoti(event)"></a>
+                </div>
+                <div id="noti-container">
+                    <div class="header">
+                        <h3>Notification</h3>
+                        <i class="fa-solid fa-caret-down">
+                            <div class="showmore">
+                                <div class="container">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Mark read all</span>
+                                </div>
+                            </div>
+                        </i>
+                    </div>
+
+                    <ul id="list-noti"></ul>
+                </div>
+                <a id="user-logo-show" href="#" onclick="showNavLogo(event)">
+                    <i class="ti-angle-down"></i>
+                    <img src="https://files.fullstack.edu.vn/f8-prod/user_avatars/187925/6241d59a30f5b.png" alt="" />
+                </a>
+                <ul id="navInfo">
+                    <li class="first"><a href="../info-user/InfoUser.html"><i class="fa-solid fa-circle-info"></i><span
+                                class="feature">Infomation</span></a>
+                    </li>
+                    <li><a href="#"><i class="fa-solid fa-circle-question"></i><span class="feature">Help</span></a>
+                    </li>
+                    <li><a href="#"><i class="fa-solid fa-gear"></i><span class="feature">Setting</span></a></li>
+                    <li class="last"><a href="../../index.html"><i
+                                class="fa-solid fa-arrow-right-from-bracket"></i><span class="feature">Log
+                                out</span></a></li>
+                </ul>
+            </div>
+            <div class="search-and-light-night">
+                <i class="ti-search"></i>
+                <input type="search" name="search" id="search-input" placeholder="Looking for something ... " />
+                <button id="theme-switch">
+                    <i class="ti-reload"></i>
+                    <span>Switch to</span> <span class="theme">Light</span>
+                </button>
+            </div>
+        </header>
+        <main>
+            <aside>
+                <nav class="nav1">
+                    <a href="#" title="Note"><i class="ti-pencil ti-icon icon-type-1 hover1"></i></a>
+                    <a href="#" title="Calender"><i class="ti-calendar ti-icon icon-type-1"></i></a>
+                    <a href="#" title="To-do">
+                        <i class="ti-check-box ti-icon icon-type-1"></i>
+                    </a>
+                    <a href="#" title="Alarm"><i class="ti-alarm-clock ti-icon icon-type-1"></i></a>
+                </nav>
+                <nav class="nav2">
+                    <a href="#" title="Book"><i class="ti-book ti-icon icon-type-2"></i></a>
+                    <a href="#" title="Storage"><i class="ti-folder ti-icon icon-type-2"></i></a>
+                    <a href="#" title="Music"><i class="ti-headphone ti-icon icon-type-2"></i></a>
+                    <a href="#" title="Discussion">
+                        <i class="ti-comment ti-icon icon-type-2"></i>
+                    </a>
+                </nav>
+                <a href="#" class="icon-chart"><i class="icon-chart ti-bar-chart"></i></a>
+                <a href="#"><i class="icon-help ti-help"></i></a>
+            </aside>
+            <div id="content">
+                <!-- NOTE FUNCTION -->
+                <div class="frame notes display-flex" id="app"></div>
+                <!-- CALENDER FUNC -->
+                <iframe id="frame-calender" class="frame calendar" src="../calendar/index.html"></iframe>
+
+                <!-- TO-DO FUNC -->
+                <iframe id="frame-to-do2" class="frame to-do" src="../kanbanTable/index.html"></iframe>
+                <iframe width="60%" id="frame-to-do1" class="frame1 to-do" src="../Todo/index.html"></iframe>
+
+                <!-- CLOCK-TIME FUNC -->
+                <iframe id="frame-clock" class="frame alarm" src="../Alarm/index.html" frameborder="0"></iframe>
+                <!-- BOOK FUNC -->
+                <iframe src="../Books/index.html" class="frame book" frameborder="0" id="frame-book"></iframe>
+                <!-- STORE FUNC -->
+                <iframe src="../StorageWeb/index.html" class="frame storage" id="frame-storage"
+                    frameborder="0"></iframe>
+                <!-- MUSIC FUNC -->
+                <iframe id="frame-music" src="../MusicPlayer/index.html" class="frame music" frameborder="0"></iframe>
+
+                <!-- CHAT FUNC -->
+                <iframe src="../ChatServer/index.html" frameborder="0" class="frame chat" id="frame-chat"></iframe>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+    <div id="reponsive-div">
+        <div class="image-div"></div>
+        <div class="content-div">
+            <h3>The website is currently not supported on tablets and phones, please use a computer to use our service.
+            </h3>
+        </div>
+    </div>
+    <script src="./assets/js-note/main.js" type="module"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/event.js"></script>
+</body>
+
+</html>
